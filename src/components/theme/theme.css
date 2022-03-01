@@ -1,0 +1,61 @@
+.theme-wrapper {
+  display: flex;
+  align-items: center;
+}
+.theme-wrapper span {
+  padding-left: 20px;
+}
+.theme-label {
+  display: inline-block;
+  height: 34px;
+  position: relative;
+  width: 60px;
+}
+#checkbox {
+  display: none;
+}
+.slider {
+  background-color: #ccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 0.4s;
+}
+#checkbox:checked + .slider {
+  background-color: #30c5ff;
+}
+#checkbox:checked + .slider {
+  background-color: #30c5ff;
+}
+.slider.round {
+  border-radius: 34px;
+}
+.slider.round {
+  border-radius: 34px;
+}
+
+#checkbox:checked + .slider:before {
+  transform: translateX(26px);
+}
+#checkbox:checked + .slider:before {
+  transform: translateX(26px);
+}
+.slider.round:before {
+  border-radius: 50%;
+}
+.slider.round:before {
+  border-radius: 50%;
+}
+.slider:before {
+  background-color: #fff;
+  bottom: 4px;
+  content: "";
+  height: 26px;
+  left: 4px;
+  position: absolute;
+  transition: 0.4s;
+  width: 26px;
+}

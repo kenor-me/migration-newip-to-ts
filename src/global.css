@@ -29,14 +29,11 @@ footer a:hover{
 }
 footer .copyright {
     font-size: 14px;
-    color: #333;
+    color: rgb(124, 124, 124);
     text-align: center;
 }
 footer .copyright a {
-    color: #444;
-}
-footer .copyright a:hover {
-    color: #555;
+    color: rgb(255, 255, 255);
 }
 footer .copyright:before {
     content: '©';
